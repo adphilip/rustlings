@@ -18,11 +18,12 @@ fn main() {
     // from a different language than your own, try an emoji 😉
     // let your_character = '';
 
+    let your_character = ':';
     if your_character.is_alphabetic() {
-        println!("Alphabetical!");
+        println!("Alphabetical 2!");
     } else if your_character.is_numeric() {
-        println!("Numerical!");
+        println!("Numerical 2!");
     } else {
-        println!("Neither alphabetic nor numeric!");
+        println!("Neither alphabetic nor numeric 2!");
     }
 }
